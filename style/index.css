@@ -1,1 +1,81 @@
 /* Add CSS styling here */
+html {
+    font-size: 62.5%;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #000 , #00004f);
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin:40px 60px 150px 60px;
+}
+
+header h1 {
+    width: 50%;
+    font-size: 10rem;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover{
+    color: yellow;
+}
+
+.hero-area {
+    margin: 0 auto;
+    width: 75%;
+    background-color: red;
+}
+
+.hero-area-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects-section {
+    /* background-image: url("../img/aboutmeimg.png");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    margin: 100px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.home-project {
+    width: 33.3%;
+    margin: 30px 0;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.home-project-description {
+    margin-left: 90px;
+    width: 70%; 
+}
+
+/* .home-project-description p {
+    font-size: 1rem;
+} */
+
+
+footer {
+    background-color: green;
+    padding: 100px 20px;
+}
