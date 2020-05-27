@@ -10,7 +10,7 @@ html {
 header {
     display: flex;
     justify-content: space-between;
-    margin:40px 60px 150px 60px;
+    margin:40px 60px 50px 60px;
 }
 
 header h1 {
@@ -50,15 +50,15 @@ a:hover{
     /* background-image: url("../img/aboutmeimg.png");
     background-repeat: no-repeat;
     background-size: 100%; */
-    margin: 100px auto;
+    margin: 50px auto;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
    flex-wrap: wrap;
 }
 
 .home-project {
-    width: 33.3%;
+    width: 30.3%;
     margin: 30px 0;
     font-size: 2rem;
     text-align: center;
@@ -79,3 +79,138 @@ footer {
     background-color: green;
     padding: 100px 20px;
 }
+
+
+/*ABOUT PAGE*/
+.aboutme-content {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    background-image: url("../img/aboutmeimg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 5px solid hsl(0, 9%, 98%);
+    padding: 5px;
+    outline: 5px solid hsl(236, 93%, 16%);
+    box-shadow:
+        0 0 0 10px hsl(231, 78%, 2%),
+        0 0 0 15px hsl(0, 0%, 100%);
+  }
+    
+
+
+.aboutme-text {
+    margin-top: 150px;
+    padding: 60px;
+    font-size: 4rem;
+    color: #FFF;
+    background: rgb(14,46,167, 0.5);
+    width: 70%;
+    border-radius: 2%;
+    margin-bottom: 350px;
+    
+    
+}
+
+footer {
+    margin-top: 1600px;
+}
+
+hr {
+    margin: 0;
+}
+
+
+
+
+
+/**CONTACT PAGE**/
+.contact {
+    margin: 0 auto;
+    width: 80%;
+    /* height: 2200px; */
+    background-image: url(../img/trenyph.png);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    /* background-image: linear-gradient(to right, #000 , #00004f); */
+    padding: 20px;
+    font-size: 3rem;
+    color: #fff;
+    /* margin: 0;
+    background-color: rgb(41, 1, 41); */
+}
+ a {
+     text-decoration: none;
+     color: #FFF;
+ }
+
+.contact-title{
+    margin-top: 80px;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h2{
+    font-size: 4rem;
+    /* line-height: 10px; */
+}
+.contact-title h3{
+    font-size: 3rem;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 2rem;
+}
+
+form {
+    
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.input {
+    height: 45px;
+}
+
+form .submit {
+    font-size: 2rem;
+    border-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 25px;
+
+}
+
+form .submit:hover {
+    background-color: rgb(41, 1, 41);
+    cursor: pointer;
+}
+
+.top {
+    margin-left: 430px;
+    margin-right: 430px;
+}
+
+.contact-footer-title {
+    font-size: 1rem;
+}
+
+
+
+
+
